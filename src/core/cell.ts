@@ -1,5 +1,7 @@
-export const Alive: string = 'Alive';
-export const Dead: string = 'Dead';
+export const enum State {
+  Alive = 'ALIVE',
+  Dead = 'DEAD',
+}
 
 export class Cell {
   x: number;
