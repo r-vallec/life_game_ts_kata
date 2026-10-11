@@ -1,4 +1,5 @@
 export const Alive: string = 'Alive';
+export const Dead: string = 'Dead';
 
 export class Cell {
   x: number;
